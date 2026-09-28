@@ -14,8 +14,8 @@
 
 | Node                  | Host                      | Port  | Secure | Password                        | Region         | Load |
 | --------------------- | ------------------------- | ----- | ------ | ------------------------------- | -------------- | ---- |
-| **MILLO Indonesia 1** | `lava-v4.millohost.my.id` | `443` | ✅      | `https://discord.gg/mjS5J2K3ep` | 🇮🇩 Indonesia | 🟢   |
-| **MILLO Indonesia 2** | `lava4.millohost.my.id`   | `443` | ✅      | `https://discord.gg/mjS5J2K3ep` | 🇮🇩 Indonesia | 🟢   |
+| **MILLO HOST 1** | `lava-v4.millohost.my.id` | `443` | ✅      | `https://discord.gg/mjS5J2K3ep` | 🇮🇩 Indonesia | 🟢   |
+| **MILLO HOST 2** | `lava4.millohost.my.id`   | `443` | ✅      | `https://discord.gg/mjS5J2K3ep` | 🇮🇩 Indonesia | 🟢   |
 
 ### ✅ WebSocket / REST Endpoints
 
