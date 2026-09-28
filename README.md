@@ -1,168 +1,172 @@
-# 🌊 Nazha Free Lavalink — 4 Public Nodes · 2026 Edition
+# 🌊 MILLO Free Lavalink — 2 Public Nodes · 2026 Edition
 
-> 100% Free Lavalink v4 nodes hosted in Singapore + US. No keys needed. Always online.
+> 100% Free Lavalink v4 nodes hosted in Indonesia 🇮🇩. No keys needed.
 
-[![Lavalink v4](https://img.shields.io/badge/Lavalink-4.2.2-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://github.com/lavalink-devs/Lavalink)
-[![Uptime 99.9%](https://img.shields.io/badge/Uptime-99.9%25-22c55e?style=for-the-badge)](https://status.nazha.online)
-[![Sources 45+](https://img.shields.io/badge/Supported%20Sources-45%2B-22c55e?style=for-the-badge)](https://github.com/lavalink-devs/Lavalink)
-[![Nazha Plugin](https://img.shields.io/badge/Plugin-nazha--source--1.0.1-8b5cf6?style=for-the-badge)](https://github.com/topi314/LavaSrc)
-[![License](https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge)](LICENSE)
+[![Lavalink v4](https://img.shields.io/badge/Lavalink-v4-5865F2?style=for-the-badge\&logo=discord\&logoColor=white)](https://github.com/lavalink-devs/Lavalink)
+[![Indonesia](https://img.shields.io/badge/Region-Indonesia-22c55e?style=for-the-badge)](#)
+[![Free](https://img.shields.io/badge/Price-Free-22c55e?style=for-the-badge)](#)
+[![MILLO](https://img.shields.io/badge/Host-MILLO-8b5cf6?style=for-the-badge)](https://millohost.my.id)
 
 ---
 
 ## ⚡ Node Details
 
-| Node | Host | Port | Secure | Password | Region | Load |
-|------|------|------|--------|----------|--------|------|
-| **Singapore 1** | `sg-1.nazha.online` | `443` | ✅ | `https://discord.gg/XeSCnk57ZF` | 🇸🇬 Singapore | 🟢 |
-| **Singapore 2** | `sg-2.nazha.online` | `443` | ✅ | `https://discord.gg/XeSCnk57ZF` | 🇸🇬 Singapore | 🟢 |
-| **Singapore 3** | `sg-3.nazha.online` | `443` | ✅ | `https://discord.gg/XeSCnk57ZF` | 🇸🇬 Singapore | 🟢 |
-| **Main (Global)** | `lavalink.nazha.online` | `443` | ✅ | `nazhafreelava` | 🌍 US Global | 🟢 |
+| Node                  | Host                      | Port  | Secure | Password                        | Region         | Load |
+| --------------------- | ------------------------- | ----- | ------ | ------------------------------- | -------------- | ---- |
+| **MILLO Indonesia 1** | `lava-v4.millohost.my.id` | `443` | ✅      | `https://discord.gg/mjS5J2K3ep` | 🇮🇩 Indonesia | 🟢   |
+| **MILLO Indonesia 2** | `lava4.millohost.my.id`   | `443` | ✅      | `https://discord.gg/mjS5J2K3ep` | 🇮🇩 Indonesia | 🟢   |
 
-### ✅ WebSocket / REST endpoint
+### ✅ WebSocket / REST Endpoint
 
-```
-wss://sg-1.nazha.online/            (Lavalink v4)
-wss://sg-2.nazha.online/
-wss://sg-3.nazha.online/
-wss://lavalink.nazha.online/
+```text
+wss://lava-v4.millohost.my.id/
+wss://lava4.millohost.my.id/
 ```
 
-> **Tip:** For Lavalink v4, point your client at `wss://<host>/` (path `/` maps to `/v4/websocket`).
+> **Tip:** Untuk Lavalink v4, client dapat menggunakan `wss://<host>/`. Endpoint tersebut terhubung ke Lavalink v4 WebSocket.
 
 ---
 
-## 🎵 Everything you can play
+## 🎵 Supported Sources
 
-YouTube (4K/8K/Dolby), Spotify, Apple Music, SoundCloud, Deezer, Tidal, Amazon Music, Yandex Music, Gaana, JioSaavn, Pandora, Audiomack, Internet Archive, Napster, Bandcamp, Twitch, Vimeo, Niconico, Newgrounds, Netease, Audius, iHeartRadio, Reddit, TikTok, Instagram, Telegram, Kwai, Pinterest, Google Drive, RSS, Eternalbox, GetYarn, Clyp, Speak, OCRemix, Mixcloud, Soundgasm, local files + **all mirror sources** — 45+ total.
+YouTube, Spotify, SoundCloud, Bandcamp, Apple Music, Deezer, Tidal, Twitch, Vimeo, Mixcloud, Audiomack, Netease, and other supported Lavalink sources depending on the plugins installed on the nodes.
 
-- 🎧 **50s-EOF fixed** — edge-host failover + stable v6 tunneling
-- 🧾 **Lyrics** via Lavalink Lyrics plugin (Lrclib / Genius / Deezer / Spotify)
-- 🔇 SponsorBlock & DuncteBot plugins pre-installed
-- 🎚 All V4 filters: Equalizer, Karaoke, Timescale, Tremolo, Vibrato, Distortion, Rotation, ChannelMix, LowPass
+* 🎧 Lavalink v4
+* 🧾 Lyrics support
+* 🎚 Lavalink V4 audio filters
+* 🔊 Equalizer
+* 🎤 Karaoke
+* ⏩ Timescale
+* 🌊 Tremolo
+* 🎸 Vibrato
+* 🔊 Distortion
+* 🔄 Rotation
+* 🎛 ChannelMix
+* 🔉 LowPass
 
 ---
 
-## 🚀 Quick Start
+## 🔎 Search Examples
 
-### Lavalink-client (TypeScript / JS)
+### YouTube
 
-```ts
-import { LavalinkManager } from "lavalink-client";
-
-const lavalink = new LavalinkManager({
-  nodes: [
-    {
-      id: "nazha-sg1",
-      host: "sg-1.nazha.online",
-      port: 443,
-      secure: true,
-      auth: "https://discord.gg/XeSCnk57ZF",
-    },
-    {
-      id: "nazha-sg2",
-      host: "sg-2.nazha.online",
-      port: 443,
-      secure: true,
-      auth: "https://discord.gg/XeSCnk57ZF",
-    },
-    {
-      id: "nazha-sg3",
-      host: "sg-3.nazha.online",
-      port: 443,
-      secure: true,
-      auth: "https://discord.gg/XeSCnk57ZF",
-    },
-    {
-      id: "nazha-main",
-      host: "lavalink.nazha.online",
-      port: 443,
-      secure: true,
-      auth: "nazhafreelava",
-    },
-  ],
-  sendToShard: (guildId, payload) => client.guilds.cache.get(guildId)?.shard?.send(payload),
-});
-await lavalink.init(client.user.id);
+```text
+ytsearch:Daft Punk Get Lucky
 ```
 
-### Wavelink (Python)
+atau:
 
-```python
-import wavelink
-from wavelink import NodeConnection, NodeType
-
-node_sg = NodeConnection(
-    id="nazha-sg1",
-    uri="wss://sg-1.nazha.online",
-    password="https://discord.gg/XeSCnk57ZF",
-    secure=True,
-    type=NodeType.Normal,
-)
+```text
+Daft Punk Get Lucky
 ```
 
-### Shoukaku (JS)
+### Spotify
 
-```js
-const Shoukaku = require("shoukaku");
-const shoukaku = new Shoukaku.Shoukaku(new LavalinkConnectors.DiscordJS(client), [
-  {
-    name: "Nazha SG1",
-    url: "sg-1.nazha.online:443",
-    auth: "https://discord.gg/XeSCnk57ZF",
-    secure: true,
-  },
-]);
+```text
+spsearch:never gonna give you up
 ```
 
-### Erela.js (JS)
+atau:
 
-```js
-const client = new ErelaClient(client, [
-  {
-    host: "sg-1.nazha.online",
-    port: 443,
-    password: "https://discord.gg/XeSCnk57ZF",
-    secure: true,
-  },
-]);
+```text
+spsearch:spotify:track:TRACK_ID
+```
+
+### SoundCloud
+
+```text
+scsearch:Daft Punk
+```
+
+### Bandcamp
+
+```text
+bcsearch:artist song
 ```
 
 ---
 
-## 🔎 Search examples
+## 🔌 REST API
 
-- YouTube: `ytsearch:Daft Punk Get Lucky` or just `Daft Punk Get Lucky`
-- Spotify: `spsearch:never gonna give you up` / `spsearch:spotify:track:...`
-- Apple Music: `amsearch:...` · Deezer: `dzsearch:...` · Tidal: `tidal:...`
-- SoundCloud: `scsearch:...` · Bandcamp: `bcsearch:...`
+Lavalink v4 REST endpoints are available through the public nodes.
+
+### Node 1
+
+```text
+https://lava-v4.millohost.my.id/v4/info
+https://lava-v4.millohost.my.id/v4/stats
+https://lava-v4.millohost.my.id/v4/loadtracks
+```
+
+### Node 2
+
+```text
+https://lava4.millohost.my.id/v4/info
+https://lava4.millohost.my.id/v4/stats
+https://lava4.millohost.my.id/v4/loadtracks
+```
+
+> REST requests require the Lavalink `Authorization` header using the node password.
 
 ---
 
 ## ❓ FAQ
 
-**Is this really free?** Yes — all 4 nodes are community-funded public nodes. We only ask that you keep usage reasonable (no 24/7 4K streaming farms).
+**Is this free?**
 
-**Rate limits?** ~1500s total playtime per user per day per node, then rotate to another node.
+Yes. These Lavalink v4 nodes are provided as free public nodes hosted in Indonesia.
 
-**Does `/v4/loadtracks` work?** Yes, full REST API is available on the same host + password.
+**Where are the nodes hosted?**
 
-**How do I get an unrotated / reserved node?** Join the Discord (the password itself is our Discord invite) — we offer priority nodes for active members.
+🇮🇩 Indonesia.
+
+**How many nodes are available?**
+
+There are currently 2 public Lavalink v4 nodes:
+
+* `lava-v4.millohost.my.id`
+* `lava4.millohost.my.id`
+
+**Do I need a key?**
+
+No additional API key is required. Use the Lavalink password provided above.
+
+**Does `/v4/loadtracks` work?**
+
+Yes, provided the endpoint and source are supported by the node configuration.
+
+**Can I use both nodes?**
+
+Yes. It is recommended to configure both nodes in your Lavalink client so it can switch between nodes when necessary.
 
 ---
 
-## ⚠️ Fair-use notice
+## ⚠️ Fair-Use Notice
 
-These are real production nodes. Abuse (looped streams, huge uploads, scanning `#ext-m3u` torrents/spam) will get your IP temp-blocked. Please join our community and report downtime — thank you for keeping the network healthy! 🫶
+These are public production nodes. Please use them responsibly.
+
+Avoid:
+
+* Excessive automated requests
+* Endpoint scanning
+* Request flooding
+* Abuse of REST endpoints
+* Unusually heavy workloads
+* Attempts to disrupt node availability
+
+Abusive traffic may be rate-limited or blocked to keep the nodes available for other users.
 
 ---
 
 ## 📜 License
 
-Everything in this repo is under the [MIT License](LICENSE). The nodes themselves are operated by Independent community members and provided "as is", without warranty.
+Lavalink is open-source software distributed under its respective license.
+
+The public nodes are operated by MILLO HOST and are provided as-is without warranty or guaranteed uptime.
 
 ---
 
 <p align="center">
-  <b>Made with 💜 for the open-source Discord music community<br>Started 2026 · Lavalink v4 · 45+ sources · 4 nodes</b>
+  <b>Made with 🇮🇩 for the open-source Discord music community<br>
+  2026 · Lavalink v4 · Indonesia · 2 Public Nodes</b>
 </p>
