@@ -16,24 +16,24 @@
 | **MILLO Indonesia 1** | `lava-v4.millohost.my.id` | `443` | ✅      | `https://discord.gg/mjS5J2K3ep` | 🇮🇩 Indonesia | 🟢   |
 | **MILLO Indonesia 2** | `lava4.millohost.my.id`   | `443` | ✅      | `https://discord.gg/mjS5J2K3ep` | 🇮🇩 Indonesia | 🟢   |
 
-### ✅ WebSocket / REST Endpoint
+### ✅ WebSocket / REST Endpoints
 
 ```text
 wss://lava-v4.millohost.my.id/
 wss://lava4.millohost.my.id/
 ```
 
-> **Tip:** Untuk Lavalink v4, client dapat menggunakan `wss://<host>/`. Endpoint tersebut terhubung ke Lavalink v4 WebSocket.
+> **Tip:** For Lavalink v4, clients can use `wss://<host>/`. The endpoint connects directly to the Lavalink v4 WebSocket.
 
 ---
 
 ## 🎵 Supported Sources
 
-YouTube, Spotify, SoundCloud, Bandcamp, Apple Music, Deezer and other supported Lavalink sources depending on the plugins installed on the nodes.
+YouTube, Spotify, SoundCloud, Bandcamp, Apple Music, Deezer, and other Lavalink-supported sources depending on the plugins installed on the nodes.
 
 * 🎧 Lavalink v4
 * 🧾 Lyrics support
-* 🎚 Lavalink V4 audio filters
+* 🎚 Lavalink v4 audio filters
 * 🔊 Equalizer
 * 🎤 Karaoke
 * ⏩ Timescale
@@ -54,7 +54,7 @@ YouTube, Spotify, SoundCloud, Bandcamp, Apple Music, Deezer and other supported 
 ytsearch:Daft Punk Get Lucky
 ```
 
-atau:
+Or simply:
 
 ```text
 Daft Punk Get Lucky
@@ -66,7 +66,7 @@ Daft Punk Get Lucky
 spsearch:never gonna give you up
 ```
 
-atau:
+Or:
 
 ```text
 spsearch:spotify:track:TRACK_ID
@@ -167,6 +167,5 @@ The public nodes are operated by MILLO HOST and are provided as-is without warra
 ---
 
 <p align="center">
-  <b>Made with 🇮🇩 for the open-source Discord music community<br>
-  2026 · Lavalink v4 · Indonesia · 2 Public Nodes</b>
+  <b>https://millo.my.id</b>
 </p>
