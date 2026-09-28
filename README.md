@@ -6,7 +6,7 @@
 [![Uptime 99.9%](https://img.shields.io/badge/Uptime-99.9%25-22c55e?style=for-the-badge)](https://discord.gg/mjS5J2K3ep)
 [![Indonesia](https://img.shields.io/badge/Region-Indonesia-22c55e?style=for-the-badge)](#)
 [![Free](https://img.shields.io/badge/Price-Free-22c55e?style=for-the-badge)](#)
-[![MILLO HOST](https://img.shields.io/badge/Host-MILLO-8b5cf6?style=for-the-badge)](https://discord.gg/mjS5J2K3ep)
+[![MILLO HOST](https://img.shields.io/badge/Host-MILLO-HOST-8b5cf6?style=for-the-badge)](https://discord.gg/mjS5J2K3ep)
 
 ---
 
