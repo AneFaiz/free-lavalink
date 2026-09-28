@@ -5,7 +5,7 @@
 [![Lavalink v4](https://img.shields.io/badge/Lavalink-v4-5865F2?style=for-the-badge\&logo=discord\&logoColor=white)](https://github.com/lavalink-devs/Lavalink)
 [![Indonesia](https://img.shields.io/badge/Region-Indonesia-22c55e?style=for-the-badge)](#)
 [![Free](https://img.shields.io/badge/Price-Free-22c55e?style=for-the-badge)](#)
-[![MILLO](https://img.shields.io/badge/Host-MILLO-8b5cf6?style=for-the-badge)](https://millohost.my.id)
+[![MILLO HOST](https://img.shields.io/badge/Host-MILLO-8b5cf6?style=for-the-badge)](https://discord.gg/mjS5J2K3ep)
 
 ---
 
