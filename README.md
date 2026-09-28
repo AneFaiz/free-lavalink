@@ -3,6 +3,7 @@
 > 100% Free Lavalink v4 nodes hosted in Indonesia 🇮🇩
 
 [![Lavalink v4](https://img.shields.io/badge/Lavalink-v4-5865F2?style=for-the-badge\&logo=discord\&logoColor=white)](https://github.com/lavalink-devs/Lavalink)
+[![Uptime 99.9%](https://img.shields.io/badge/Uptime-99.9%25-22c55e?style=for-the-badge)](https://discord.gg/mjS5J2K3ep)
 [![Indonesia](https://img.shields.io/badge/Region-Indonesia-22c55e?style=for-the-badge)](#)
 [![Free](https://img.shields.io/badge/Price-Free-22c55e?style=for-the-badge)](#)
 [![MILLO HOST](https://img.shields.io/badge/Host-MILLO-8b5cf6?style=for-the-badge)](https://discord.gg/mjS5J2K3ep)
