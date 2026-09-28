@@ -29,7 +29,7 @@ wss://lava4.millohost.my.id/
 
 ## 🎵 Supported Sources
 
-YouTube, Spotify, SoundCloud, Bandcamp, Apple Music, Deezer, Tidal, Twitch, Vimeo, Mixcloud, Audiomack, Netease, and other supported Lavalink sources depending on the plugins installed on the nodes.
+YouTube, Spotify, SoundCloud, Bandcamp, Apple Music, Deezer and other supported Lavalink sources depending on the plugins installed on the nodes.
 
 * 🎧 Lavalink v4
 * 🧾 Lyrics support
