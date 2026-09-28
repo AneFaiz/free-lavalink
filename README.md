@@ -1,6 +1,6 @@
-# 🌊 MILLO Free Lavalink — 2 Public Nodes · 2026 Edition
+# 🌊 MILLO Free Lavalink — 2 Public Nodes
 
-> 100% Free Lavalink v4 nodes hosted in Indonesia 🇮🇩. No keys needed.
+> 100% Free Lavalink v4 nodes hosted in Indonesia 🇮🇩
 
 [![Lavalink v4](https://img.shields.io/badge/Lavalink-v4-5865F2?style=for-the-badge\&logo=discord\&logoColor=white)](https://github.com/lavalink-devs/Lavalink)
 [![Indonesia](https://img.shields.io/badge/Region-Indonesia-22c55e?style=for-the-badge)](#)
