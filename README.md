@@ -1,4 +1,4 @@
-# 🌊 MILLO Free Lavalink — 2 Public Nodes
+# MILLO HOST Free Lavalink — 2 Public Nodes
 
 > 100% Free Lavalink v4 nodes hosted in Indonesia 🇮🇩
 
